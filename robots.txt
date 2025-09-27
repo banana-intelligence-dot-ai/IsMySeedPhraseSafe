@@ -1,0 +1,10 @@
+User-agent: *
+Allow: /
+Disallow: /assets/
+
+# Sitemap location
+Sitemap: https://seedphrasecheck.com/sitemap.xml
+Sitemap: https://ismyseedphrasesafe.com/sitemap.xml
+
+# Crawl-delay for respectful crawling
+Crawl-delay: 1
