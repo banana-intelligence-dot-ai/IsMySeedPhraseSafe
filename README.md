@@ -72,10 +72,12 @@ open index.html
 
 ### Production Deployment
 The site can be deployed to any static hosting service:
+- **Netlify** (currently deployed) - Connected to GitHub for automatic deployments
 - GitHub Pages
-- Netlify
 - Vercel
 - Traditional web hosting
+
+**Current Deployment**: The site is deployed on Netlify with automatic deployments from the `main` branch. Any push to the main branch will trigger a new deployment.
 
 No server-side components or build process required.
 
