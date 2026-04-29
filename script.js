@@ -57,9 +57,6 @@ document.addEventListener('DOMContentLoaded', function() {
         
         // Scroll to warning
         warningSection.scrollIntoView({ behavior: 'smooth', block: 'start' });
-        
-        // Log this for analytics (if implemented)
-        console.log('Warning triggered - user educated about seed phrase security');
     }
 
     // Prevent form submission on enter
@@ -84,19 +81,3 @@ document.addEventListener('DOMContentLoaded', function() {
     console.log('%cNEVER enter your seed phrase on ANY website!', 'color: #ff3333; font-size: 16px;');
     console.log('%cLearn more at https://bananaintelligence.ai', 'color: #888888; font-size: 14px;');
 });
-
-// Add fade-in animation
-const style = document.createElement('style');
-style.textContent = `
-    @keyframes fadeIn {
-        from {
-            opacity: 0;
-            transform: translateY(10px);
-        }
-        to {
-            opacity: 1;
-            transform: translateY(0);
-        }
-    }
-`;
-document.head.appendChild(style);
